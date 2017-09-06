@@ -1,5 +1,6 @@
 #include "Carta.h"
 
+//Dá a carta numero e naipe
 Carta::Carta(int numero, int naipe){
     this->_numero = numero;
     switch (naipe) {
